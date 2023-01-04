@@ -40,7 +40,22 @@
     </p>
 </div>
 
+<div class="part3">
+    <h2>Partie 3</h2>
 
+    <table border="2">
+        <?php
+        for ($row = 0; $row <= 12; $row++) {
+            echo '<tr>';
+            for ($col = 0; $col <= 12; $col++) {
+                $result = $row * $col;
+                echo '<td>' . $result . '</td>';
+            }
+            echo '</tr>';
+        }
+        ?>
+    </table>
+</div>
 
 </body>
 </html>
