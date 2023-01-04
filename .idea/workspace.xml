@@ -54,7 +54,7 @@
       <workItem from="1672754463366" duration="653000" />
       <workItem from="1672755124475" duration="4987000" />
       <workItem from="1672818364998" duration="2946000" />
-      <workItem from="1672821332830" duration="7742000" />
+      <workItem from="1672821332830" duration="7773000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672836452729</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add directory les_tableaux">
+      <created>1672836458887</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672836458887</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
