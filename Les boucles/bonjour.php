@@ -8,18 +8,39 @@
     <title>Les boucles</title>
 </head>
 <body>
-<?php
 
-//  Exercice Les boucles
+<h1>Les boucles</h1>
 
-$a = 0;
+<div class="part1">
+    <h2>Partie 1</h2>
+    <p>
+        <br>
+        <?php
+        $a = 1;
 
-while ($a < 150) {
-    echo $a . "\t";
-    $a += 2;
-}
+        while ($a < 150) {
+            echo $a . "\t";
+            $a += 2;
+        }
+        ?>
+    </p>
+</div>
 
-?>
+<div class="part2">
+    <h2>Partie 2</h2>
+    <p>
+        <?php
+        $b = 1;
+
+        while ($b <= 500) {
+            echo "<br> Je dois faire des sauvegardes régulières de mes fichiers" . " " . $b;
+            $b++;
+        }
+        ?>
+    </p>
+</div>
+
+
 
 </body>
 </html>
