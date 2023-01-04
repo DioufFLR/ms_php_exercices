@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="" />
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Les boucles/bonjour.php" beforeDir="false" afterPath="$PROJECT_DIR$/Les boucles/bonjour.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,7 +56,7 @@
       <workItem from="1672754463366" duration="653000" />
       <workItem from="1672755124475" duration="4987000" />
       <workItem from="1672818364998" duration="2946000" />
-      <workItem from="1672821332830" duration="198000" />
+      <workItem from="1672821332830" duration="428000" />
     </task>
     <servers />
   </component>
