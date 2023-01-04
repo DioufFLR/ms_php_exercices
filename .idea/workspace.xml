@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="">
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="1.2">
       <change beforePath="$PROJECT_DIR$/Les boucles/bonjour.php" beforeDir="false" afterPath="$PROJECT_DIR$/Les boucles/bonjour.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +56,23 @@
       <workItem from="1672754463366" duration="653000" />
       <workItem from="1672755124475" duration="4987000" />
       <workItem from="1672818364998" duration="2946000" />
-      <workItem from="1672821332830" duration="428000" />
+      <workItem from="1672821332830" duration="547000" />
     </task>
+    <task id="LOCAL-00001" summary="1.2">
+      <created>1672821797509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672821797509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
   </component>
 </project>
