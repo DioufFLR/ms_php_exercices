@@ -114,7 +114,7 @@
         <div class="part2_2">
             <h3>2.1</h3>
 
-            <table border="1.5">
+            <table border="1.5" bgcolor="#deb887">
                 <?php
                 foreach ($capitales as $villes => $pays) {
                     echo "<tr>";
@@ -128,7 +128,7 @@
         <div class="part2_3">
             <h3>2.2</h3>
 
-            <table border="1.5">
+            <table border="1.5" bgcolor="#deb887">
                 <?php
                 foreach ($capitales as $villes => $pays) {
                     echo "<tr>";
@@ -142,9 +142,24 @@
         <div class="part2_3">
             <h3>2.3</h3>
 
+            <?php
+
+            $nbr = count($capitales);
+
+            echo 'Le nombre de pays présentes dans le tableaux est de : ' . $nbr;
+
+            ?>
 
         </div>
 
+        <div class="part2_4">
+            <h3>2.4</h3>
+
+            <?php
+
+            ?>
+
+        </div>
 
 
 
