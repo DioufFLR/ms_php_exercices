@@ -156,7 +156,14 @@
             <h3>2.4</h3>
 
             <?php
-
+            foreach ($capitales as $villes => $pays) {
+                if ("B" == substr($villes, 0, 1)) {
+                    unset($pays);
+                }
+                if (!empty($pays)) {
+                    echo $pays . " ";
+                }
+            }
             ?>
 
         </div>
