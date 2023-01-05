@@ -107,12 +107,47 @@
             "Zagreb" => "Croatie"
         );
         
-        sort($capitales);
-        
-        foreach ($capitales as $villes => $pays) {
-            echo $villes . $pays;
-        }
+        asort($capitales);
+
         ?>
+
+        <div class="part2_2">
+            <h3>2.1</h3>
+
+            <table border="1.5">
+                <?php
+                foreach ($capitales as $villes => $pays) {
+                    echo "<tr>";
+                    echo "<td>" . $villes . "</td>" . "<td>" . $pays . "</td>";
+                    echo "</tr>";
+                }
+                ?>
+            </table>
+        </div>
+
+        <div class="part2_3">
+            <h3>2.2</h3>
+
+            <table border="1.5">
+                <?php
+                foreach ($capitales as $villes => $pays) {
+                    echo "<tr>";
+                    echo "<td>" . $pays . "</td>" . "<td>" . $villes . "</td>";
+                    echo "</tr>";
+                }
+                ?>
+            </table>
+        </div>
+
+        <div class="part2_3">
+            <h3>2.3</h3>
+
+
+        </div>
+
+
+
+
 
     </div>
 </div>
