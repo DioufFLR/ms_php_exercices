@@ -167,10 +167,38 @@
             ?>
 
         </div>
+    </div>
 
+    <div class="part3">
 
+        <h2>Partie 3</h2>
 
+        <?php
+        $departements = array(
+            "Hauts-de-france" => array("Aisne", "Nord", "Oise", "Pas-de-Calais", "Somme"),
+            "Bretagne" => array("Côtes d'Armor", "Finistère", "Ille-et-Vilaine", "Morbihan"),
+            "Grand-Est" => array("Ardennes", "Aube", "Marne", "Haute-Marne", "Meurthe-et-Moselle", "Meuse", "Moselle", "Bas-Rhin", "Haut-Rhin", "Vosges"),
+            "Normandie" => array("Calvados", "Eure", "Manche", "Orne", "Seine-Maritime")
+        );
+        ?>
 
+        <div class="part3_1">
+            <h3>3.1</h3>
+
+                <?php
+
+                foreach ($departements as $region => $departement) {
+                    echo "<strong>" . $region . "</strong>" . ":" . "<br>";
+                    if (is_array($departement)) {
+                        foreach ($departement as $region => $departement) {
+                            echo $departement . "<br>";
+                        }
+                    }
+                    echo "<br>";
+                }
+                ?>
+
+        </div>
     </div>
 </div>
 
