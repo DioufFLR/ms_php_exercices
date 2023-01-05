@@ -187,6 +187,8 @@
 
                 <?php
 
+                ksort($departements);
+
                 foreach ($departements as $region => $departement) {
                     echo "<strong>" . $region . "</strong>" . ":" . "<br>";
                     if (is_array($departement)) {
@@ -199,9 +201,25 @@
                 ?>
 
         </div>
-    </div>
-</div>
 
+        <div class="part3_2">
+        <h3>3.2</h3>
+
+            <?php
+
+            ksort($departements);
+
+            foreach ($departements as $region => $departement) {
+                $nb = count($departement);
+                echo $region . "=" . $nb . "<br>";
+            }
+            ?>
+
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
