@@ -10,34 +10,12 @@
 <body>
 
 <?php
-function bonjour($prenom, $nom) {
-    echo "Bonjour " . $prenom . " " . $nom;
+
+function lien($a, $b) {
+    echo '<a href=' . '"' . $a . '"' . '>' . $b . '</a>';
 }
 
-bonjour("Joseph nez de boeuf", "belette");
-
-$a = $b = 2;
-
-function somme() {
-    global $a, $b;
-    $b = $a + $b;
-    echo $b . " " . $a;
-}
-
-somme();
-
-function test() {
-    static $d = 0;
-    echo $d . "<br>";
-    $d++;
-}
-
-test();
-test();
-test();
-
-
-
+lien("https://www.reddit.com/", "Reddit Hug");
 
 ?>
 
