@@ -8,6 +8,12 @@
     <title>Les fonctions</title>
 </head>
 <body>
+
+<h1>Les fonctions</h1>
+
+<br>
+<br>
+
 <div class="partie1">
     <h2>Générer un lien</h2>
     <h3>Première manière</h3>
@@ -60,6 +66,18 @@
 
     ?>
 
+</div>
+
+<br><br>
+
+<div class="partie3">
+    <h2>Fonction vérifiant le niveau de complexité d'un mot de passe</h2>
+
+    <?php
+
+
+
+    ?>
 </div>
 
 
