@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="Les fonctions">
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="Les fonctions partie 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/les_fonctions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/les_fonctions/index.php" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <workItem from="1672821332830" duration="13852000" />
       <workItem from="1672903934767" duration="12853000" />
       <workItem from="1672932599584" duration="1141000" />
-      <workItem from="1672992469569" duration="5452000" />
+      <workItem from="1672992469569" duration="6467000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673000722890</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Les fonctions partie 1">
+      <created>1673002399283</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673002399283</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +219,7 @@
     <MESSAGE value="partie 3" />
     <MESSAGE value="end" />
     <MESSAGE value="Les fonctions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les fonctions" />
+    <MESSAGE value="Les fonctions partie 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les fonctions partie 1" />
   </component>
 </project>

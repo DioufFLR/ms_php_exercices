@@ -8,7 +8,7 @@
     <title>Les fonctions</title>
 </head>
 <body>
-<div class="parti1">
+<div class="partie1">
     <h2>Générer un lien</h2>
     <h3>Première manière</h3>
     <?php
@@ -41,6 +41,25 @@
 
     lien2("https://www.reddit.com/", "Reddit Hug");
     ?>
+</div>
+
+<br><br>
+
+<div class="partie2">
+    <h2>Fonction pour calculer la somme des valeurs d'un tableau</h2>
+
+    <?php
+
+    $tab = array(4, 3, 8, 2);
+
+    function somme($tab) {
+        echo "La somme des valeurs présentent dans le tableau est de : " . array_sum($tab);
+    }
+
+    somme($tab);
+
+    ?>
+
 </div>
 
 
