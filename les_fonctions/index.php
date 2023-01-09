@@ -74,14 +74,23 @@
     <h2>Fonction vérifiant le niveau de complexité d'un mot de passe</h2>
 
     <?php
-
-
+    $resultat = 'TopSecret42';
+    function password($resultat)
+    {
+        $uppercase = preg_match('@[A-Z]@', $resultat);
+        $lowercase = preg_match('@[a-z]@', $resultat);
+        $number = preg_match('@[0-9]@', $resultat);
+        if ($uppercase && $lowercase && $number = $resultat) {
+            echo 'true';
+        } else {
+            echo 'false';
+        }
+    }
+    password($resultat);
 
     ?>
+
 </div>
-
-
-
 
 </body>
 </html>
