@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="Les fonctions fin">
-      <change afterPath="$PROJECT_DIR$/date_heures/index.php" afterDir="false" />
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="Date et heures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date_heures/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/date_heures/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,8 @@
       <workItem from="1673251921664" duration="4785000" />
       <workItem from="1673257927868" duration="1505000" />
       <workItem from="1673260304850" duration="40000" />
-      <workItem from="1673260462593" duration="2384000" />
+      <workItem from="1673260462593" duration="3000000" />
+      <workItem from="1673336129877" duration="3526000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673257685577</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Date et heures">
+      <created>1673279588162</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673279588162</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +256,7 @@
     <MESSAGE value="Les fonctions partie 1" />
     <MESSAGE value="Les fonctions partie 2" />
     <MESSAGE value="Les fonctions fin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les fonctions fin" />
+    <MESSAGE value="Date et heures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date et heures" />
   </component>
 </project>
