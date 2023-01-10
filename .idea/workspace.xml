@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="Date et heures 1.1">
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="Date et heures 1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/date_heures/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/date_heures/index.php" afterDir="false" />
     </list>
@@ -72,7 +72,7 @@
       <workItem from="1673336129877" duration="9754000" />
       <workItem from="1673359247456" duration="1775000" />
       <workItem from="1673361178125" duration="743000" />
-      <workItem from="1673363070093" duration="686000" />
+      <workItem from="1673363070093" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -242,11 +242,29 @@
       <option name="project" value="LOCAL" />
       <updated>1673341394501</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Date et heures 1.2">
+      <created>1673363780345</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1673363780345</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.2" />
@@ -268,6 +286,7 @@
     <MESSAGE value="Les fonctions fin" />
     <MESSAGE value="Date et heures" />
     <MESSAGE value="Date et heures 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date et heures 1.1" />
+    <MESSAGE value="Date et heures 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date et heures 1.2" />
   </component>
 </project>

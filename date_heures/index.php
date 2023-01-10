@@ -48,6 +48,13 @@
         <h2>Partie 3</h2>
         <?php
 
+        function bissextile($annee)
+        {
+            return date("m-d", strtotime("$annee-02-29")) == "02-29";
+        }
+
+        echo bissextile('2015');
+
 
         ?>
         <br>
