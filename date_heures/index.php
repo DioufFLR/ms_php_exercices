@@ -26,7 +26,18 @@
         <h2>Partie 2</h2>
         <?php
 
+        $now = time();
+        $date_fin = strtotime("2023-02-06 17:00:00");
 
+
+        function dateDiff($date_fin, $now) {
+            $diff = abs($date_fin - $now);
+            $jour = $diff / 86400; // dans une journée il y a 86400 secondes.
+            $jour_arrondi = round($jour);
+            echo 'Il reste ' . $jour_arrondi . ' jours pour terminer la formation';
+        }
+
+        dateDiff($date_fin, $now);
 
         ?>
         <br>
