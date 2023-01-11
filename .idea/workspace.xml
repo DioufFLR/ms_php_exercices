@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="Date et heures 1.6">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/date_heures/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/date_heures/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="Date et heures 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,7 @@
       <workItem from="1673359247456" duration="1775000" />
       <workItem from="1673361178125" duration="743000" />
       <workItem from="1673363070093" duration="2289000" />
-      <workItem from="1673421978572" duration="7030000" />
+      <workItem from="1673421978572" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -271,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673430992578</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Date et heures 2">
+      <created>1673431783680</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1673431783680</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +315,7 @@
     <MESSAGE value="Date et heures 1.2" />
     <MESSAGE value="Date et heures 1.4" />
     <MESSAGE value="Date et heures 1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date et heures 1.6" />
+    <MESSAGE value="Date et heures 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date et heures 2" />
   </component>
 </project>
