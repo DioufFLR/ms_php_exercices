@@ -50,11 +50,14 @@
 
         function bissextile($annee)
         {
-            return date("m-d", strtotime("$annee-02-29")) == "02-29";
+            if (date("m-d", strtotime("$annee-02-29")) == "02-29"){
+               echo "L'année " . $annee . " est une année bissextile";
+            } else {
+                echo "L'année  " . $annee . " n'est pas une année bissextile";
+            }
         }
 
-        echo bissextile('2015');
-
+        echo bissextile('2024');
 
         ?>
         <br>
@@ -65,6 +68,13 @@
         <h2>Partie 4</h2>
         <?php
 
+        setlocale(LC_TIME, ['fr', 'fra', 'fr_FR']);
+
+        if (checkdate(17, 32,2019)) {
+            echo 'Cette date est valide';
+        } else {
+            echo 'Cette date est erronée';
+        }
 
         ?>
         <br>
@@ -75,7 +85,8 @@
         <h2>Partie 5</h2>
         <?php
 
-
+        $heure = time();
+        echo $heure;
 
         ?>
         <br>
