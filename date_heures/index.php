@@ -86,7 +86,7 @@
         <?php
 
         $heure = time();
-        echo $heure;
+        echo date("H", $heure) . "h" . date("i", $heure);
 
         ?>
         <br>
