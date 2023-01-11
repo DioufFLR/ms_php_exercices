@@ -97,7 +97,9 @@
         <h2>Partie 6</h2>
         <?php
 
-
+        $dt = new \DateTime();
+        $dt -> modify('+1 month');
+        echo $dt -> format('d/m/y');
 
         ?>
         <br>
@@ -108,6 +110,10 @@
         <h2>Partie 7</h2>
         <?php
 
+        $dt2 = 1000200000;
+        $dt2_date = date("d/m/Y", $dt2);
+        echo $dt2_date;
+        echo "<p>La timestamp 1000200000 correspond aux attentats du 11 septembre 2001</p>"
 
         ?>
         <br>
