@@ -31,6 +31,10 @@ while (!feof($fp))
     $ligne = fgets($fp, 4096);
     echo $ligne."<br>";
 }
+
+$fichier ="toto.txt";
+/* création d'un fichier toto.txt.bak */
+copy($fichier, $fichier.'.bak');
 ?>
 </body>
 </html>
