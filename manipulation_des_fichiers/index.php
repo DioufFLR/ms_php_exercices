@@ -8,34 +8,11 @@
     <title>Manipulation de fichier</title>
 </head>
 <body>
+<h1>Manipulation de fichiers exercice</h1>
 <?php
-// On déclare une variable dont la valeur (contenu) sera écrite dans le fichier
-$myVar = "Bonjour le monde ";
 
-// Ouverture en écriture seule
-$fp = fopen("essai.txt", 'ab');
-
-// Écriture du contenu ($myVar)
-fputs($fp, $myVar);
-
-// Fermeture du fichier
-fclose($fp);
-
-// Ouverture en lecture seule
-$fp = fopen("essai.txt", "r");
-
-// Boucle jusqu'à la fin du fichier
-while (!feof($fp))
-{
-    // Lecture d'une ligne, le contenu de la ligne est affecté à la variable $ligne
-    $ligne = fgets($fp, 4096);
-    echo $ligne."<br>";
-}
-
-$fichier ="toto.txt";
-/* création d'un fichier toto.txt.bak */
-copy($fichier, $fichier.'.bak');
 ?>
+
 </body>
 </html>
 
