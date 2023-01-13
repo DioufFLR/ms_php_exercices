@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="formulaires et variables serveur">
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="formulaires end">
+      <change afterPath="$PROJECT_DIR$/manipulation_des_fichiers/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulaires_variables_serveur/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaires_variables_serveur/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulaires_variables_serveur/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaires_variables_serveur/script.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +44,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.index.php">
     <configuration name="bonjour.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bonjour.php">
       <method v="2" />
     </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/manipulation_des_fichiers/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,7 +82,8 @@
       <workItem from="1673361178125" duration="743000" />
       <workItem from="1673363070093" duration="2289000" />
       <workItem from="1673421978572" duration="12296000" />
-      <workItem from="1673508777157" duration="9780000" />
+      <workItem from="1673508777157" duration="11890000" />
+      <workItem from="1673597119654" duration="1886000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -294,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673451896784</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="formulaires end">
+      <created>1673534222884</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673534222884</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +351,7 @@
     <MESSAGE value="Date et heures 1.6" />
     <MESSAGE value="Date et heures 2" />
     <MESSAGE value="formulaires et variables serveur" />
-    <option name="LAST_COMMIT_MESSAGE" value="formulaires et variables serveur" />
+    <MESSAGE value="formulaires end" />
+    <option name="LAST_COMMIT_MESSAGE" value="formulaires end" />
   </component>
 </project>
