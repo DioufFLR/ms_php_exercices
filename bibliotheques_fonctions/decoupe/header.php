@@ -12,8 +12,8 @@
 <body>
 <div class="container">
     <header>
-
+        Hello world !
         <nav>
-
+            A cet endroit se trouve la navigation
         </nav>
     </header>
