@@ -9,10 +9,25 @@
 </head>
 <body>
 <h1>Manipulation de fichiers exercice</h1>
-<?php
 
-?>
+<div class="parti1">
+    <h2>Partie 1</h2>
 
+    <?php
+
+    $file = file('liens.txt');
+
+    echo "<ul>";
+
+    foreach ($file as $line) {
+        echo '<li>' . '<a href="' . $line . '">' . $line . '</a>' . '</li>' . '<br>';
+    }
+
+    echo '</ul>';
+
+    ?>
+
+</div>
 </body>
 </html>
 
