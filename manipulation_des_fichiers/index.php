@@ -8,26 +8,47 @@
     <title>Manipulation de fichier</title>
 </head>
 <body>
-<h1>Manipulation de fichiers exercice</h1>
 
-<div class="parti1">
-    <h2>Partie 1</h2>
+<div class="partie1">
+    <h1>Manipulation de fichiers</h1>
 
-    <?php
+    <div class="part1">
+        <h2>Partie 1</h2>
 
-    $file = file('liens.txt');
+        <?php
 
-    echo "<ul>";
+        $file = file('liens.txt');
 
-    foreach ($file as $line) {
-        echo '<li>' . '<a href="' . $line . '">' . $line . '</a>' . '</li>' . '<br>';
-    }
+        echo "<ul>";
 
-    echo '</ul>';
+        foreach ($file as $line) {
+            echo '<li>' . '<a href="' . $line . '">' . $line . '</a>' . '</li>' . '<br>';
+        }
 
-    ?>
+        echo '</ul>';
 
+        ?>
+
+    </div>
 </div>
+
+<div class="partie2">
+    <h1>Le téléchargement de fichiers</h1>
+
+    <div class="part2">
+
+        <?php
+        $visiteurs = file_get_contents("moncompteur.txt");
+
+        $visiteurs++;
+
+        file_put_contents("moncompteur.txt", $visiteurs);
+
+        print("$visiteurs personnes sont passées par ici");
+        ?>
+    </div>
+</div>
+
 </body>
 </html>
 
