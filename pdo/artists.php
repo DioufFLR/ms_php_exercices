@@ -48,7 +48,7 @@ $requete->closeCursor();
 
     </table>
 
-</form>
+
 </body>
 </html>
 

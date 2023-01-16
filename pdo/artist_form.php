@@ -17,11 +17,6 @@ $requete->closeCursor();
     <title>Ajout</title>
 </head>
 <body>
-
-
-
-    <h1>Artiste n°<?= $resultat->artist_id; ?></h1>
-
 <a href="artists.php">Retour à la liste des artistes</a>
 
 <br>
