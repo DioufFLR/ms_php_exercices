@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="pdo">
-      <change afterPath="$PROJECT_DIR$/pdo/artists.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdo/db.php" afterDir="false" />
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="pdo create read">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bibliotheques_fonctions/decoupe/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/bibliotheques_fonctions/decoupe/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdo/artist_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdo/artist_detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <workItem from="1673508777157" duration="11890000" />
       <workItem from="1673597119654" duration="5960000" />
       <workItem from="1673695520124" duration="3174000" />
-      <workItem from="1673856037766" duration="1473000" />
+      <workItem from="1673856037766" duration="4056000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -360,7 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673856400247</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="pdo create">
+      <created>1673857746150</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1673857746150</updated>
+    </task>
+    <task id="LOCAL-00040" summary="pdo create read">
+      <created>1673862447258</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1673862447258</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,8 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor name directory" />
-    <MESSAGE value="add directory les_tableaux" />
     <MESSAGE value="partie 1" />
     <MESSAGE value="partie 2 en cours" />
     <MESSAGE value="partie 2 question 3" />
@@ -403,6 +413,8 @@
     <MESSAGE value="fichiers end" />
     <MESSAGE value="biblio" />
     <MESSAGE value="pdo" />
-    <option name="LAST_COMMIT_MESSAGE" value="pdo" />
+    <MESSAGE value="pdo create" />
+    <MESSAGE value="pdo create read" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdo create read" />
   </component>
 </project>
