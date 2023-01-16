@@ -7,12 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="biblio">
-      <change afterPath="$PROJECT_DIR$/bibliotheques_fonctions/decoupe/test.php" afterDir="false" />
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="pdo">
+      <change afterPath="$PROJECT_DIR$/pdo/artists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdo/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bibliotheques_fonctions/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bibliotheques_fonctions/decoupe/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bibliotheques_fonctions/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bibliotheques_fonctions/decoupe/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bibliotheques_fonctions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bibliotheques_fonctions/decoupe/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliotheques_fonctions/decoupe/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/bibliotheques_fonctions/decoupe/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +92,7 @@
       <workItem from="1673508777157" duration="11890000" />
       <workItem from="1673597119654" duration="5960000" />
       <workItem from="1673695520124" duration="3174000" />
+      <workItem from="1673856037766" duration="1473000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673698467678</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="pdo">
+      <created>1673856400247</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1673856400247</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +378,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2" />
     <MESSAGE value="refactor name directory" />
     <MESSAGE value="add directory les_tableaux" />
     <MESSAGE value="partie 1" />
@@ -396,6 +402,7 @@
     <MESSAGE value="fichier part 1" />
     <MESSAGE value="fichiers end" />
     <MESSAGE value="biblio" />
-    <option name="LAST_COMMIT_MESSAGE" value="biblio" />
+    <MESSAGE value="pdo" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdo" />
   </component>
 </project>
