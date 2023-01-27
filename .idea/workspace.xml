@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="pdo" />
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="move directory pdo_crude" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +43,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../pdo_crude" />
       <recent name="C:\wamp64\www\ms_php_exercices\bibliotheques_fonctions\decoupe" />
     </key>
   </component>
@@ -88,7 +89,7 @@
       <workItem from="1673597119654" duration="5960000" />
       <workItem from="1673695520124" duration="3174000" />
       <workItem from="1673856037766" duration="1473000" />
-      <workItem from="1673866131289" duration="703000" />
+      <workItem from="1673866131289" duration="909000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -363,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673866204673</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="pdo">
+      <created>1673872134681</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1673872134681</updated>
+    </task>
+    <task id="LOCAL-00041" summary="move directory pdo_crude">
+      <created>1673872165048</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1673872165048</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor name directory" />
     <MESSAGE value="add directory les_tableaux" />
     <MESSAGE value="partie 1" />
     <MESSAGE value="partie 2 en cours" />
@@ -406,6 +420,7 @@
     <MESSAGE value="fichiers end" />
     <MESSAGE value="biblio" />
     <MESSAGE value="pdo" />
-    <option name="LAST_COMMIT_MESSAGE" value="pdo" />
+    <MESSAGE value="move directory pdo_crude" />
+    <option name="LAST_COMMIT_MESSAGE" value="move directory pdo_crude" />
   </component>
 </project>
