@@ -1,5 +1,10 @@
 <?php
 
+session_start();
+
+$_SESSION["login"] = "bonjour@sfr.fr";#
+$_SESSION["password"] = "bonjour";
+
 ?>
 <!doctype html>
 <html lang="fr">
@@ -8,20 +13,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Exercices sur les mots de passe</title>
 </head>
 <body>
-<div class="form">
+<div class="container">
     <form action="login_script.php" method="post">
 
-        <label for="login">login</label><br>
-        <input type="text" name="login" id="login">
+        <label for="login"></label><br>
+        <input type="email" placeholder="email" name="login" id="login">
 
-        <br><br>
+        <br>
 
-        <label for="password">Mot de passe</label><br>
-        <input type="password" name="password" id="password">
+        <label for="password"></label><br>
+        <input type="password" placeholder="mot de passe" name="password" id="password">
 
+        <br><br><br>
+
+        <label for="envoyer"></label>
+        <input type="submit" class="btn btn-danger">
     </form>
 </div>
 </body>
