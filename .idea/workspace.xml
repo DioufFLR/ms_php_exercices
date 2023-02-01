@@ -7,9 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="add les_sessions">
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="1.5">
+      <change afterPath="$PROJECT_DIR$/authentification/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification/sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authentification/login_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentification/login_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentification/login_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentification/login_script.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,7 @@
       <workItem from="1673866131289" duration="909000" />
       <workItem from="1674810511666" duration="2889000" />
       <workItem from="1675063737615" duration="26000" />
-      <workItem from="1675240835556" duration="299000" />
+      <workItem from="1675240835556" duration="6569000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -406,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674816468614</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="1.5">
+      <created>1675241497740</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1675241497740</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="partie 1" />
     <MESSAGE value="partie 2 en cours" />
     <MESSAGE value="partie 2 question 3" />
     <MESSAGE value="partie 2 question 4" />
@@ -449,6 +458,7 @@
     <MESSAGE value="pdo" />
     <MESSAGE value="move directory pdo_crude" />
     <MESSAGE value="add les_sessions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add les_sessions" />
+    <MESSAGE value="1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5" />
   </component>
 </project>

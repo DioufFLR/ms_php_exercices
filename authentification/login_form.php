@@ -1,9 +1,7 @@
 <?php
-
 session_start();
 
-$_SESSION["login"] = "bonjour@sfr.fr";#
-$_SESSION["password"] = "bonjour";
+
 
 ?>
 <!doctype html>
@@ -21,17 +19,17 @@ $_SESSION["password"] = "bonjour";
     <form action="login_script.php" method="post">
 
         <label for="login"></label><br>
-        <input type="email" placeholder="email" name="login" id="login">
+        <input class="btn btn-success" type="text" placeholder="login" name="login" id="login">
 
         <br>
 
         <label for="password"></label><br>
-        <input type="password" placeholder="mot de passe" name="password" id="password">
+        <input class="btn btn-success" type="password" placeholder="mot de passe" name="password" id="password">
 
         <br><br><br>
 
         <label for="envoyer"></label>
-        <input type="submit" class="btn btn-danger">
+        <input type="submit" class="btn btn-warning">
     </form>
 </div>
 </body>
