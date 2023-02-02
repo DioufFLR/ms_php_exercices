@@ -8,11 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="1.5">
-      <change afterPath="$PROJECT_DIR$/authentification/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification/sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification/login_new.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authentification/login_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentification/login_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentification/login_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentification/login_script.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/fleur/Bureau/ms_geoffrey/php/ms_php_exercices",
+    "last_opened_file_path": "/home/fleur/Bureau/ms_geoffrey/php/pdo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +98,8 @@
       <workItem from="1673866131289" duration="909000" />
       <workItem from="1674810511666" duration="2889000" />
       <workItem from="1675063737615" duration="26000" />
-      <workItem from="1675240835556" duration="6569000" />
+      <workItem from="1675240835556" duration="7783000" />
+      <workItem from="1675329923262" duration="2727000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -416,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675241497740</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="1.5">
+      <created>1675248362616</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1675248362616</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
