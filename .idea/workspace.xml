@@ -7,11 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="1.5">
-      <change afterPath="$PROJECT_DIR$/authentification/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification/login_new.php" afterDir="false" />
+    <list default="true" id="8d2f7a87-ef4f-4e62-a4b1-7cf3db7fbbfa" name="Changes" comment="1.6">
+      <change afterPath="$PROJECT_DIR$/authentification/ajout_script.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentification/login_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentification/login_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentification/login_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/authentification/login_new.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <workItem from="1674810511666" duration="2889000" />
       <workItem from="1675063737615" duration="26000" />
       <workItem from="1675240835556" duration="7783000" />
-      <workItem from="1675329923262" duration="2727000" />
+      <workItem from="1675329923262" duration="4631000" />
     </task>
     <task id="LOCAL-00001" summary="1.2">
       <created>1672821797509</created>
@@ -423,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675248362616</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="1.6">
+      <created>1675333959867</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1675333959867</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="partie 2 en cours" />
     <MESSAGE value="partie 2 question 3" />
     <MESSAGE value="partie 2 question 4" />
     <MESSAGE value="partie 2 end" />
@@ -466,6 +471,7 @@
     <MESSAGE value="move directory pdo_crude" />
     <MESSAGE value="add les_sessions" />
     <MESSAGE value="1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5" />
+    <MESSAGE value="1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
   </component>
 </project>

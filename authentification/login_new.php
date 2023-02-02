@@ -38,7 +38,7 @@ $requete->closeCursor();
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
-        <button type="submit" class="btn btn-warning">Submit</button>
+        <button type="submit" class="btn btn-warning">Enregistrer</button>
     </form>
 
     <div class="button-retour mt-4">
