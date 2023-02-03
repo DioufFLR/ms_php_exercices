@@ -30,13 +30,21 @@ $requete->closeCursor();
 
     <form class="mt-4" action="ajout_script.php">
         <div class="form-group">
-            <label for="exampleInputEmail1">Login</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez un login">
-            <small id="emailHelp" class="form-text text-muted">Ne partager à personne vos données de connexions</small>
+            <label for="nom">Nom</label>
+            <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom">
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <label for="prenom">Prénom</label>
+            <input type="text" class="form-control" id="prenom" placeholder="Entrez un prénom">
+        </div>
+        <div class="form-group">
+            <label for="email">Login</label>
+            <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entrez un login">
+            <small id="emailHelp" class="form-text text-muted">Ne partagez à personne vos données de connexions</small>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
         </div>
         <button type="submit" class="btn btn-warning">Enregistrer</button>
     </form>
