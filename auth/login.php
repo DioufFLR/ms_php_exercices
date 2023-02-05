@@ -19,46 +19,39 @@ if(isset($valider)){
         $erreur="Mauvais login ou mot de passe!";
 }
 ?>
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="utf-8" />
-    <style>
-        *{
-            font-family:arial;
-        }
-        body{
-            margin:20px;
-        }
-        input{
-            border:solid 1px #2222AA;
-            margin-bottom:10px;
-            padding:16px;
-            outline:none;
-            border-radius:6px;
-        }
-        .erreur{
-            color:#CC0000;
-            margin-bottom:10px;
-        }
-        a{
-            font-size:12pt;
-            color:#EE6600;
-            text-decoration:none;
-            font-weight:normal;
-        }
-        a:hover{
-            text-decoration:underline;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Document</title>
 </head>
 <body onLoad="document.fo.login.focus()">
-<h1>Authentification [ <a href="inscription.php">Créer un compte</a> ]</h1>
-<div class="erreur"><?php echo $erreur ?></div>
-<form name="fo" method="post" action="">
-    <input type="text" name="login" placeholder="Login" /><br />
-    <input type="password" name="pass" placeholder="Mot de passe" /><br />
-    <input type="submit" name="valider" value="S'authentifier" />
-</form>
+<div class="container">
+    <div class="p-3 mb-2 bg-info text-white">
+        <h1>Authentification</h1>
+    </div>
+    <div class="erreur"><?php echo $erreur ?></div>
+    <form name="fo" class="mt-4" method="post" action="">
+        <div class="form-group">
+            <input type="text" class="form-control" name="login" placeholder="Login"><br>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" name="pass" placeholder="Mot de passe"><br>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-success" name="valider" value="S'authentifier">
+        </div>
+    </form>
+
+    <div class="mt-4">
+        <a class="btn btn-warning" href="inscription.php">Créer un compte</a>
+    </div>
+</div>
+
 </body>
 </html>
