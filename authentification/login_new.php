@@ -22,9 +22,6 @@ $requete->closeCursor();
     <title>Inscription</title>
 </head>
 <body>
-
-<!------------------------------https://www.chiny.me/exercice-authentification-via-une-base-de-donnees-en-php-8-13.php voir cette page pour finir l'exercice --------------------------->
-
 <div class="container">
     <div class="p-3 mb-2 bg-info text-white">
         <h1>Inscription</h1>
